@@ -1,0 +1,43 @@
+.nav {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  /* min-height: 3.7rem; */
+  align-items: center;
+  padding: 0 0 0 3rem;
+
+  &__logoContainer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__search {
+    margin-right: 2rem;
+  }
+
+  &__Left {
+    display: flex;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  &__icons {
+    margin-right: 1.6rem;
+    display: flex;
+    align-items: center;
+
+    &_divider {
+      margin: 0 1.2rem;
+    }
+  }
+
+  &__profile{
+    margin: 0 auto 0 0;
+  }
+}

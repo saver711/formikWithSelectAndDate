@@ -1,0 +1,28 @@
+.search {
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+
+  label{
+    display: flex;
+  }
+
+  &__input {
+    margin-right: 10px;
+    background-color: transparent;
+    border: 0;
+    color: #333;
+    min-width: 14rem;
+
+    &::placeholder {
+      opacity: 0.6;
+    }
+
+    &:focus,
+    &:focus-visible {
+      border: 0;
+      outline: 0;
+    }
+  }
+}

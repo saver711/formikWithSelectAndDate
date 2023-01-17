@@ -1,0 +1,11 @@
+.home {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 70px 1fr;
+  min-height: 100vh;
+}
+.content {
+  grid-column: 2/3;
+  background-color: var(--primaryLighter);
+  padding: 2rem 2rem 2rem 3rem;
+}
